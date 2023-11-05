@@ -1,0 +1,108 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+body {
+    background-color: #000000dd;
+    color: white;
+
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.lista-tareas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.task {
+    padding: 1rem;
+    /* cursor: pointer; */
+    border: 1px solid rgb(99, 106, 144);
+    border-radius: 1.5rem;
+    transition: 0.3s;
+}
+
+.task:hover {
+    background-color: #ffffffdd;
+    color: black;
+    /* font-weight: bold; */
+
+}
+
+
+task:hover {
+    background-color: #ffffffdd;
+    color: rgb(21, 43, 183);
+
+}
+
+.delete-task{
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #ffffffdd;
+    background-color: rgb(183, 21, 80);
+    font-weight: bold;
+    padding: 0.1rem;
+  
+}
+
+.delete-task:hover {
+    background-color: #0e0d0ddd;
+    color: #ffffffdd;
+
+}
+.complete{
+    cursor: pointer;
+}
+.task-comfir{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+/*formulario....*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input, textarea{
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+textarea{
+    resize: none;
+    height: 70px;
+    width: 250px;
+}
+
+.btn-add{
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #ffffffdd;
+    background-color: rgb(53, 21, 183);
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.btn-add:hover{
+    color: #1609ccdd;
+    background-color: #ffffffdd ;
+}
